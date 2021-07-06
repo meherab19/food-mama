@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  padding: 0px 100px;
+  padding-top: 50px;
+}
+.display-flex {
+  display: flex;
+}
+.header-section {
+  background-image: url("images/Frame\ 57.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  font-size: bold;
+  margin-bottom: 20px;
+}
+.text-color {
+  color: orange;
+}
+.half-width {
+  width: 50%;
+  padding: 0px 15px;
+}
+.text {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.brand-image {
+  width: 400px;
+}
+.button-link {
+  color: white;
+  width: 100px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  box-shadow: 1px 1px 20px rgba(36, 35, 35, 0.11);
+}
+.about-section {
+  background-image: url("images/frame7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-text {
+  text-align: center;
+}
+.card-items {
+  display: flex;
+  justify-content: space-between;
+}
+.card-item {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 25px rgba(2, 2, 2, 0.233);
+  margin: 15px;
+}
+.card-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.dash-bord {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 25px rgba(2, 2, 2, 0.233);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter-number {
+  text-align: center;
+}
+.counter-number h1 {
+  padding-top: 10px;
+  margin: 0px;
+}
+footer {
+  padding: 50px 100px;
+  height: 200px;
+  background: rgb(34, 33, 33);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 50px;
+}
+.contuct-section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 247, 247);
+  margin: 50px 0px;
+}
+.contuct input {
+  outline: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+}
+.subcribe-button {
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 60, 255),
+    rgb(255, 0, 149)
+  );
+  box-shadow: 1px 1px 20px rgba(36, 35, 35, 0.11);
+  border: none;
+  outline: none;
+}
+.feedback-section {
+  padding: 100px 50px;
+}
